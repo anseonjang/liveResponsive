@@ -119,10 +119,10 @@ footer .mainBtn .layerPopup {
 
 .popup .close {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 2px; /* 수정 */ 
+    right: 10px;
     font-size: 40px;
-    color: #fff;
+    color: #fff; 
     cursor: pointer;
 }
 
@@ -150,26 +150,6 @@ footer .mainBtn .layerPopup {
         display: none;
         /* 가려줌 */
     }
-
-    /* mobile menu */
-    /* header .mainLogoMenus nav.mobileMenu span {
-        display: block;
-        color: #fff;
-        position: absolute;
-        top: 10px;
-        right: 14px;
-    }
-
-    header .mainLogoMenus nav.mobileMenu span img {
-        width: 52px;
-    }
-
-
-
-    header .mainLogoMenus nav.mobileMenu span img:hover {
-        opacity: 0.5;
-    }
- */
 
  .toggle-container {
     position: relative;
@@ -218,7 +198,7 @@ footer .mainBtn .layerPopup {
         height: 100%;
         background-color: rgba(0, 0, 0, 0.9);
         transition: 0.1s;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
 
@@ -234,7 +214,7 @@ footer .mainBtn .layerPopup {
 
     header .mainLogoMenus nav.mobileMenu .overlay ul li a {
         padding: 15px;
-        font-size: 20px;
+        font-size: 23px; /* 수정 */
         color: #fff;
         display: block;
         transition: 0.3s;
@@ -246,7 +226,7 @@ footer .mainBtn .layerPopup {
     }
     header .mainLogoMenus nav.mobileMenu .overlay .overlay-content {
         position: absolute;
-        top: 25%;
+        top: 33%; /* 수정 */
         width: 100%;
         text-align: center;
        

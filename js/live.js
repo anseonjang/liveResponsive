@@ -1,6 +1,6 @@
 // toggle line => X 
 function toggleMenu() {
-    var $myNav = $('#myNav');// 메뉴 감싸는 전체 컨테이너 변수저장
+  var $myNav = $('#myNav'); // 메뉴 감싸는 전체 컨테이너 변수저장
   if ($myNav.css("width") == "0px") { // 만약 가로사이즈가 0이면, 
     $('.toggle-container').addClass('active'); // 토글 버튼에 액티브 클래스 추가하고, 
     $myNav.css("width", "100%"); // 메뉴 너비 100%로 열기 
